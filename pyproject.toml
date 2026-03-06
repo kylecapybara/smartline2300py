@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pysmartline"
+version = "0.1.0"
+description = "Python tools for communicating with Knauer Smartline detectors."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "pyserial",
+    "matplotlib",
+    "numpy",
+]
+
+[tool.setuptools]
+packages = ["pysmartline"]
